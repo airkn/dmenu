@@ -13,8 +13,8 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#fbf1c7", "#000000" },
-	[SchemeSel] = { "#fbf1c7", "#1d2021" },
-	[SchemeOut] = { "#000000", "#1d2021" },
+	[SchemeSel] = { "#fbf1c7", "#212121" },
+	[SchemeOut] = { "#000000", "#212121" },
 };
 static const unsigned int alphas[SchemeLast][2] = {
 	/*		fgalpha		bgalphga	*/
